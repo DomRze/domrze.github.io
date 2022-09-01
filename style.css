@@ -1,0 +1,321 @@
+body {
+	background-color: #111;
+	margin-left: 13%;
+	margin-right: 13%;
+	margin-top: 20px;
+	margin-bottom: 64px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+footer.class2 {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  height: 72px;            /* Footer height */
+}
+
+/* -------------------------------------- *//* PASEK NAWIGACYJNY */
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a,
+button {
+  color: #777;
+}
+
+.image-clickable {
+  margin-right: auto;
+}
+
+.logo {
+  height: auto;
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: white;
+}
+
+aktywny {
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 0px;
+  font-size: 1rem;
+  transition: all 0.5s ease 0s;
+  margin-left: 20px;
+}
+
+/* -------------------------------------- *//* SCROLL */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* -------------------------------------- */
+
+.vl {
+  border-top: 2px solid #333;
+  height: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+a.class1:link {
+  text-decoration: none;
+  color: fuchsia;
+}
+
+a.class1:visited {
+  text-decoration: none;
+  color: fuchsia;
+}
+
+a.class1:hover {
+  text-decoration: none;
+  color: fuchsia;
+}
+
+a.class1:active {
+  text-decoration: none;
+  color: fuchsia;
+}
+
+/* -------------------------------------- */
+
+a.class3:link {
+  font-style: italic;
+  text-decoration: none;
+  color: #777;
+  font-size: 17px;
+}
+
+a.class3:visited {
+  font-style: italic;
+  text-decoration: none;
+  color: #777;
+}
+
+a.class3:hover {
+  font-style: italic;
+  text-decoration: none;
+  color: #aaa;
+}
+
+a.class3:active {
+  font-style: italic;
+  text-decoration: none;
+  color: #aaa;
+}
+
+a.class5:link {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 22px;
+}
+
+a.class5:visited {
+  text-decoration: none;
+  color: #ddd;
+}
+
+a.class5:hover {
+  text-decoration: none;
+  color: #eee;
+}
+
+a.class5:active {
+  text-decoration: none;
+  color: #eee;
+}
+
+/* -------------------------------------- */
+
+img {
+  min-width: 31%;
+  max-width: 32%;
+  height: auto;
+  border-radius: 6px;
+  margin: 2px;
+  margin-bottom: 4px;
+}
+
+.fade-in-image {
+  animation: fadeIn 0.7s;
+  -webkit-animation: fadeIn 0.7s;
+  -moz-animation: fadeIn 0.7s;
+  -o-animation: fadeIn 0.7s;
+  -ms-animation: fadeIn 0.7s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* -------------------------------------- */
+
+h1 {
+	color: #fff;
+	text-align: center;
+}
+
+h2  {
+	color: #eee;
+	margin-bottom: 26px;
+	margin-top: 42px;
+}
+
+p {
+	font-size: 11pt;
+	color: #ddd
+}
+
+h3  {
+	font-size: 9pt;
+	color: #ccc;
+	font-style: italic;
+	text-align: center;
+}
+
+h4  {
+	color: #eee;
+	margin-bottom: -18px;
+	margin-top: 14px;
+}
+
+/* -------------------------------------- */
+
+div.parent{ 
+    background-color: #171717;
+	border-radius: 8px;
+    display:table;
+    padding:8px; 
+    width:90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	cursor: pointer;
+}
+
+div.parent:hover{ 
+    background-color: #222;
+}
+div.text{ 
+    display:table-cell;
+    text-align:justify;
+	padding-left: 12px;
+	padding-right: 16px;
+}
+div.parent .img{
+    vertical-align:middle;
+    display:table-cell;
+    padding-right:5px;
+    width:50px; /* you can change width */
+}
+div.img img{ 
+    max-width: 200px;
+    vertical-align:middle;
+}
+
+/* -------------------------------------- */
+
+div.parent1{ 
+    display:table;
+    padding:8px; 
+    width:90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+div.text1{ 
+    display:table-cell;
+	vertical-align:middle;
+    text-align:left;
+	padding-left: 28px;
+	padding-right: 18px;
+}
+div.parent1 .img{
+    vertical-align:middle;
+    display:table-cell;
+    padding-right:5px;
+    width:50px; /* you can change width */
+}
+
+/* -------------------------------------- */
+
+.myButton {
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:29px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:16px 32px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

@@ -2,10 +2,6 @@ var canvas = document.getElementById('myCanvas');
 
 var gl = canvas.getContext('webgl');
 
-if (!gl) {
-	console.error('Twoje urządzenie nie obsługuje WebGL :c');
-        return;
-}
 
 //### Koordynaty wierzchołków trójkątów ###
 

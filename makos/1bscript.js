@@ -1,6 +1,11 @@
 var canvas = document.getElementById('myCanvas');
 var gl = canvas.getContext('webgl');
 
+if (!gl) {
+	console.error('Twoje urządzenie nie obsługuje WebGL :c');
+        return;
+}
+
 //### Funkcja do obliczania punktów sześciokąta foremnego ###
 function calculateRegularHexagonVertices(centerX, centerY, radius) {
     var vertices = [];
